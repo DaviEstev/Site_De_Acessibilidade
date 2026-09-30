@@ -1,0 +1,135 @@
+/* Ao pressionar o botão, irá aumentar as letras da página*/
+body.texto-grande {
+    font-size: 24px;
+}
+
+body.texto-grande h1 {
+    font-size: 48px;
+}
+
+body.texto-grande h2 {
+    font-size: 40px;
+}
+
+body.texto-grande p {
+    font-size: 24px;
+}
+
+body.texto-grande button {
+    font-size: 22px;
+}
+
+/* Contraste */
+.contraste {
+    background: black;
+    color: #fff;
+}
+
+.contraste #conteudo {
+    background: black;
+    border: 2px solid #fff;
+}
+
+.contraste button {
+    background: yellow;
+    color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
+    line-height: 1.6;
+    min-height: 100vh;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+header {
+    background: linear-gradient(135deg, #0057b8, #0078d4);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+header h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+header p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+}
+
+
+.controles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 35px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
+}
+
+.controles button {
+    border: none;
+    border-radius: 10px;
+    padding: 14px 20px;
+    background-color: #0057b8;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.controles button:hover {
+    background-color: #003f88;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.18);
+}
+
+
+#conteudo {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
+}
+
+#conteudo h2 {
+    color: #0057b8;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+#conteudo p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
